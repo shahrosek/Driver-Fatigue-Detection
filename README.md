@@ -1,6 +1,6 @@
 How to run:
 1. First run training.m:
- It uses folders: OPEN, CLOSED, PARTIAL as the dataset. Make sure the these folders are in the same directory as the code.
+ It uses folders: OPEN, CLOSED, PARTIAL as the dataset. Make sure these folders are in the same directory as the code.
 2. Then run drowsiness_detection.m without clearing the workspace.
 (If you have more than one webcam attached to your computer, then select own webcam model using "webcamlist" command in Matlab)
 3. Webcam preview will open. Code will detect when user is becoming sleepy, and play built-in chirping sound to alert driver.
