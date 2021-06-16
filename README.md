@@ -7,7 +7,7 @@ How to run:
 4. If you want a dataset for one's own images, you can use datasetOpen.m, datasetClose.m and datasetPartial.m for having a dataset of each type (Open, close and partial) to be provided for the training set.
 5. Dependency: I have used MATLAB as the development environment to achieve this task. The system running this code must have MATLAB installed.
 6. Training Set:
-Includes 4 types of classes which are 100 images of normally open eyes. 100 images of partially closed eyes. 100 images of fully closed eyes.
+Includes 3 types of classes which are 100 images of normally open eyes. 100 images of partially closed eyes. 100 images of fully closed eyes.
 7. Test Case:
 I have used “extractHOGFeatures()”, to detect the current state, of the test object i.e. pair of eyes, against the trained set. The camera would take the picture of the whole face, but the algorithm would segment the eyes from it for further evaluation. The major function to detect the eyes, i.e. the segmentation of the eyes from the whole face, would be done by “vision.CascadeObjectDetector()”. If the user is classified, as drowsy based on our program, then the alarm sound form the laptop would intimate the result to wake the user.
 8. Vision.CascadeObjectDetector:
